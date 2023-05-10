@@ -27,6 +27,16 @@
     }
     </style>
 </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+</body>
+
     <center>
         <form>
             <label for="numero">INGRESA UN NUMERO:</label>
@@ -35,15 +45,7 @@
             <div id="resultado"></div>
             <button type="button" onclick="reiniciarJuego()">Reiniciar Juego</button>
           </form>   
-          <div class="container">
-            <h1>Reglas del juego</h1>
-            <p>
-              El juego consiste en adivinar un número aleatorio entre 1 y 10.  
-              El usuario debe ingresar un número y presionar el botón "Generar número aleatorio". 
-              Una ventana emergente mostrará el número aleatorio generado y si el número ingresado por el usuario es igual al número aleatorio, 
-              se mostrará el mensaje "¡ADIVINASTE EL NUMERO!" en la ventana emergente, de lo contrario se mostrará "NO ADIVINASTE EL NUMERO". 
-              El usuario puede reiniciar el juego presionando el botón "Reiniciar Juego"    </p>
-        </div>        
+       
     </center>
    
 
@@ -67,5 +69,16 @@
             document.getElementById("resultado").innerHTML = "";
         }   
     </script>
+<div class="container">
+  <h1>Reglas del juego</h1>
+  <p>
+    El juego consiste en adivinar un número aleatorio entre 1 y 10.  
+    El usuario debe ingresar un número y presionar el botón "Generar número aleatorio". 
+    Una ventana emergente mostrará el número aleatorio generado y si el número ingresado por el usuario es igual al número aleatorio, 
+    se mostrará el mensaje "¡ADIVINASTE EL NUMERO!" en la ventana emergente, de lo contrario se mostrará "NO ADIVINASTE EL NUMERO". 
+    El usuario puede reiniciar el juego presionando el botón "Reiniciar Juego"    </p>
+</div> 
 </body>
+
 </html>
+
