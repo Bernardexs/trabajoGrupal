@@ -13,6 +13,7 @@
             <input type="number" id="numero" name="numero">
             <button type="button" onclick="generarNumero()">GENERA UN NUMERO ALEATORIO</button>
             <div id="resultado"></div>
+            <button type="button" onclick="reiniciarJuego()">Reiniciar Juego</button>
           </form>           
     </center>
     <script>
@@ -26,8 +27,15 @@
           } else {
             ventanaEmergente.document.write("<p>NO ADIVINASTE EL NUMERO</p>");
           }
+       
         }
+        function reiniciarJuego() {
+            numeroAleatorio = null;
+            ventanaEmergente = null;
+            document.getElementById("numero").value = "";
+            document.getElementById("resultado").innerHTML = "";
+        }   
     </script>
-    
+
 </body>
 </html>
