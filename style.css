@@ -9,33 +9,32 @@ label{
     color: white
 }
 .boton {
-    background-color: #008CBA;
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .boton:hover {
-    background-color: #006F8F;
-  }
-  
-  .boton-verde-limon {
-    background-color: #7FFF00;
-    color: black;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: default;
-  }
-  
-  .boton-rojo {
-    background-color: #00ff2f;
-    color: rgb(241, 238, 238);
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: default;
-  }
-  
+  background-color: #008CBA;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #006F8F;
+}
+
+.boton-verde-limon {
+  background-color: #7FFF00;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: default;
+}
+
+.boton-rojo {
+  background-color: #00ff2f;
+  color: rgb(241, 238, 238);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: default;
+  }

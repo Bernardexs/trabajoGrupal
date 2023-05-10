@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+
     <center>
         <form>
             <label for="numero">INGRESA UN NUMERO:</label>
@@ -15,6 +15,19 @@
             <div id="resultado"></div>
           </form>           
     </center>
-    </body>
+    <script>
+        function generarNumero() {
+          const numeroIngresado = parseInt(document.getElementById("numero").value);
+          const numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+          const ventanaEmergente = window.open("", "resultado", "width=400,height=400");
+          ventanaEmergente.document.write(`<h1>EL NUMERO ALEATORIO ES: ${numeroAleatorio}</h1>`);
+          if (numeroIngresado === numeroAleatorio) {
+            ventanaEmergente.document.write("<p>¡ADIVINASTE EL NUMERO!</p>");
+          } else {
+            ventanaEmergente.document.write("<p>NO ADIVINASTE EL NUMERO</p>");
+          }
+        }
+    </script>
+    
 </body>
 </html>
